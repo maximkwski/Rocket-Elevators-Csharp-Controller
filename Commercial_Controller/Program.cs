@@ -8,6 +8,7 @@ namespace Commercial_Controller
             int scenarioNumber = Int32.Parse(args[0]);
             Scenarios scenarios = new Scenarios();
             scenarios.run(scenarioNumber);
+
         }
     }
 }
