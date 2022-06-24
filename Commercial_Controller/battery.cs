@@ -89,7 +89,7 @@ namespace Commercial_Controller
            }
         }
 
-        public void createFloorRequestButtons(int _amountOfFloors) //Button on the pannel at the lobby to request any floor
+        public void createFloorRequestButtons(int _amountOfFloors) 
         {   
             int buttonFloor = 1;
             for (int i = 0; i < _amountOfFloors; i++)
@@ -101,7 +101,7 @@ namespace Commercial_Controller
             }
         }
  
-        public void createBasementFloorRequestButtons(int _amountOfBasements) //Button on the pannel at the lobby to request any floor
+        public void createBasementFloorRequestButtons(int _amountOfBasements) 
         {
             int buttonFloor = -1;
             for (int i = 0; i < _amountOfBasements; i++)
